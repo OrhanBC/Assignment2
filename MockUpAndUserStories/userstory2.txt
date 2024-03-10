@@ -1,0 +1,1 @@
+As a student user, the student wants to be able to see a table of all the lectures slides upon clicking the 'lectures' button/link.
