@@ -1,1 +1,1 @@
-As a student user, I want to be able to view professor and TA information, like contact information, upon clicking the 'Course Team' button/link.
+As a student user, I want to be able to view professor and TA information, upon clicking the 'Course Team' button/link.
