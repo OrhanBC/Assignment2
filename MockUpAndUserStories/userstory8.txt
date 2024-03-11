@@ -1,1 +1,1 @@
-As a student user, I want to access useful resources to further my learning by clicking the 'Resources' button/link
+As a student user, I want to access useful resources related to the course by clicking the 'Resources' button/link.
