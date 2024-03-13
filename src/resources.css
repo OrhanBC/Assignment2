@@ -22,8 +22,8 @@ body {
   }
 
   .online-resources li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   #content a:link,
@@ -33,6 +33,10 @@ body {
 
   #content a:hover{
     color: #AAAAAA;
+  }
+
+  #content a:active{
+    color: #DDDDDD;
   }
 
   .mathlab {
