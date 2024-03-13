@@ -1,6 +1,5 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
-    min-width: 768px;
 }
 
 #content {
@@ -11,9 +10,30 @@ body {
     font-size: 2.5em;
 }
 
-#content p {
-    margin-top:50px;
-    font-size: 1.3em;
+#content a:link,
+#content a:visited{
+    color: #666666;
+}
+#content a:hover{
+  color: #AAAAAA;
+}
+
+.professor h2 {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+.professor img {
+    margin-left: 1%;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+#content .ta h2 {
+    margin-top: 50px;
+    margin-bottom: 5px
 }
 
 #content .tbody {
