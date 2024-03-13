@@ -9,6 +9,7 @@ body {
 
 #content h2 {
     font-size: 1.3em;
+    text-decoration: underline;
 }
 
 #content .tbody {
@@ -37,6 +38,11 @@ body {
     margin-top: 75px;
 }
 
-.preparation li{
+.preparation li,
+.structure li{
     padding: 5px;
+}
+
+.structure {
+    margin-top: 10px;
 }
