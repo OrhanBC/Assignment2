@@ -1,5 +1,4 @@
 body {
-    min-width: 768px;
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -39,7 +38,7 @@ body {
 }
 
 .preparation {
-    margin-top: 75px;
+    margin-top: 40px;
 }
 
 .preparation li,
@@ -49,4 +48,17 @@ body {
 
 .structure {
     margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #content {
+        padding: 10px;
+    }
+    #content h1 {
+        margin-top: 40px;
+    }
+    #content th,
+    #content td {
+    padding: 20px 7px;
+    }
 }
