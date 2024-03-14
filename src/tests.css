@@ -205,4 +205,8 @@ footer {
         text-align: left;
         align-self: flex-start;
     }
+
+    .copyright p {
+        margin-top: 20px;
+    }
 }
