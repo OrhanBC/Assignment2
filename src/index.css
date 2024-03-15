@@ -47,7 +47,6 @@ body {
   padding-right: 30px;
 }
 
-
 .checkbtn {
   font-size: 30px;
   color: white;
@@ -106,6 +105,19 @@ body {
 
 #home h1 {
   font-size: 3em;
+}
+
+#home a:link,
+#home a:visited {
+  color: #666666;
+}
+
+#home a:hover {
+  color: #aaaaaa;
+}
+
+#home a:active {
+  color: #dddddd;
 }
 
 /* #home h2,
@@ -172,4 +184,30 @@ footer {
 .copyright {
   text-align: right;
   align-self: flex-end;
+}
+
+footer a:visited {
+  color: #666666;
+}
+
+footer a:hover {
+  color: #aaaaaa;
+}
+
+footer a:active {
+  color: #dddddd;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-top: 20px;
+    text-align: left;
+    align-self: flex-start;
+  }
+  .copyright p {
+    margin-top: 20px;
+  }
 }
