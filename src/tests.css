@@ -5,7 +5,6 @@
 
 body {
     font-family: "Source Sans Pro", sans-serif;
-
 }
 
 #navbar {
@@ -99,6 +98,8 @@ body {
     }
 }
 
+#content a:link,
+
 #content {
     padding: 50px;
 }
@@ -156,8 +157,22 @@ footer {
     background-color: #333333;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 30px;
+    margin-top: auto;
+}
+
+footer a:visited {
+    color: #666666;
+}
+
+footer a:hover {
+    color: #AAAAAA;
+}
+
+footer a:active {
+    color: #DDDDDD;
 }
 
 .contact li {
@@ -174,12 +189,9 @@ footer {
     align-self: flex-end;
 }
 
-.copyright a:link,
-.copyright a:hover,
-.copyright a:visited {
-    color: white;
+.copyright p {
+    margin-top: 10px;
 }
-
 
 @media screen and (max-width: 900px) {
     #content {
@@ -205,7 +217,5 @@ footer {
         align-self: flex-start;
     }
 
-    .copyright p {
-        margin-top: 20px;
-    }
+
 }
