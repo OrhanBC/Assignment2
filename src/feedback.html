@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="Office_hours.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="feedback.css" />
+    <title>CSCB20 - Feedback</title>
   </head>
   <body>
     <nav id="navbar">
@@ -45,24 +45,28 @@
         </li>
       </ul>
     </nav>
-    <div id="content">
-      <h6>Course Calendar</h6>
-      <hr />
-      <a
-        href="https://calendar.google.com/calendar/u/0?cid=NjFiZWJmM2ZmYWFjYWIyZGUyMWQyYTQwMzdkNjg5Y2RjZjMzYWE2MzU2ZTkwMzY2YTQ0MDAwY2M1YjMxYzU5N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-      >
-        Link for Course Calendar
-      </a>
-      <br />
-      <br />
-      <p class="info">
-        Below is the image of current month's calendar. Refer to link for more
-        details
+    <section id="feedback">
+      <h1>Feedback</h1>
+      <p>
+        Use the form below to send an anonymous message to the instructor. You
+        don’t need name and email unless you want a direct response.
       </p>
-      <div class="image">
-        <img src="Calender/Calendar.png" , alt="calendar" />
-      </div>
-    </div>
+      <form action="">
+        <label for="name">Name (Optional)</label>
+        <input name="name" type="text" />
+        <label for="email">Email (Optional)</label>
+        <input name="email" type="text" />
+        <label for="message">Your Message</label>
+        <textarea
+          name="message"
+          id="feedback-message"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <input type="submit" />
+      </form>
+    </section>
     <footer>
       <div class="contact">
         <h4>Contact the instructor:</h4>

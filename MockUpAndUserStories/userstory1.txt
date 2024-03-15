@@ -1,1 +1,1 @@
-As a student user, the student wants to see course information, syllabus and instructor information in the 'Home' page
+As a student user, the student wants to see course information, syllabus, and news in the 'Home' page.

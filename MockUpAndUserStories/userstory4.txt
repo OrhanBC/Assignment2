@@ -1,1 +1,1 @@
-As a student user, the student wants to launch the Piazza board with the 'Discussion Board' button/link
+As a student user, the student wants to launch the Piazza board with the 'Piazza' button/link.

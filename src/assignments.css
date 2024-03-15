@@ -69,63 +69,7 @@ body {
 #check {
   display: none;
 }
-#content a {
-  padding-left: 10px;
-}
-#content a:link,
-#content a:visited {
-  color: #666666;
-}
 
-#content a:hover {
-  color: #aaaaaa;
-}
-
-#content a:active {
-  color: #dddddd;
-}
-#content h6 {
-  padding: 20px;
-  padding-bottom: 20px;
-  font-size: 3em;
-  font-style: bold;
-}
-div.image {
-  overflow-x: auto;
-  white-space: nowrap;
-}
-#content img {
-  overflow-x: auto;
-  overflow: hidden;
-  width: 150%;
-}
-@media screen and (max-width: 600px) {
-  #content h6 {
-    padding: 10px;
-    padding-bottom: 5px;
-    font-size: 1.5em;
-    font-style: bold;
-  }
-}
-p.info {
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-td,
-th {
-  padding: 30px;
-}
-@media screen and (max-width: 900px) {
-  footer {
-    flex-direction: column;
-  }
-
-  .copyright {
-    margin-top: 20px;
-    text-align: left;
-    align-self: flex-start;
-  }
-}
 @media screen and (max-width: 1250px) {
   .checkbtn {
     display: block;
@@ -139,41 +83,9 @@ th {
     z-index: 5;
   }
 
-
   #navbar {
     /* flex-direction: column; */
     justify-content: space-between;
-  }
-    #content h6{
-        padding: 20px;
-        padding-bottom: 20px;
-        font-size: 3em;
-        font-style: bold;
-      }
-   div.image{
-    overflow-x: auto;
-    white-space: nowrap;
-
-   }
-   #content img{
-    overflow-x: auto;
-    overflow: hidden;
-   }
-@media screen and (max-width: 600px){
-    #content h6{
-        padding: 10px;
-        padding-bottom: 5px;
-        font-size: 1.5em;
-        font-style: bold;
-      }
-      #content img{
-        width: 130%;
-        min-height: 90%;
-      }
-}
-  p.info{
-    padding-left: 10px;
-    padding-bottom: 10px;
   }
 
   .navbar-links {
@@ -192,17 +104,70 @@ th {
     top: 60px;
   }
 }
+
+#assignments {
+  padding: 50px;
+}
+
+#assignments h1 {
+  font-size: 2.5em;
+}
+
+#assignments p {
+  font-size: 1.3em;
+  margin-top: 30px;
+}
+
+#assignments .tbody {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+#assignments table {
+  border-collapse: collapse;
+  border: 1px solid;
+  text-align: left;
+  width: 100%;
+  overflow-x: auto;
+  overflow: hidden;
+}
+
+#assignments th,
+#assignments td {
+  border: 1px solid;
+  padding: 20px;
+}
+#assignments th {
+  border-bottom: 2px solid;
+}
+
+#assignments a:link,
+#assignments a:visited {
+  color: #666666;
+}
+
+#assignments a:hover {
+  color: #aaaaaa;
+}
+
+#assignments a:active {
+  color: #dddddd;
+}
+
 footer {
   height: auto;
-  background-color: #333333;
+  background-color: #2f2e2e;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 30px;
-  margin-top: 50px;
+  margin-top: auto;
 }
 
+footer a:link,
 footer a:visited {
   color: #666666;
 }
@@ -231,4 +196,16 @@ footer a:active {
 
 .copyright p {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    text-align: left;
+    align-self: flex-start;
+  }
 }

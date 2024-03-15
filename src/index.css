@@ -5,7 +5,6 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  min-width: 768px;
 }
 
 #navbar {
@@ -39,7 +38,7 @@ body {
 }
 
 .navbar-link a:hover {
-  color: #e6e6e6;
+  color: #e6e6e694;
 }
 
 .navbar-link {
@@ -48,12 +47,82 @@ body {
   padding-right: 30px;
 }
 
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.checkbtn img {
+  width: 34px;
+  height: 34px;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+}
+
+@media (max-width: 1250px) {
+  .checkbtn {
+    display: block;
+    align-self: flex-end;
+    z-index: 5;
+  }
+
+  .navbar-title {
+    top: 20px;
+    align-self: flex-start;
+    z-index: 5;
+  }
+
+  #navbar {
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    position: fixed;
+    gap: 10px;
+    width: 100%;
+    height: 50vh;
+    background-color: #2f2e2e;
+    top: -100%;
+    transition: all 0.6s;
+    align-items: center;
+  }
+
+  #check:checked ~ .navbar-links {
+    top: 60px;
+  }
+}
+
 #home {
   padding: 50px;
 }
 
 #home h1 {
   font-size: 3em;
+}
+
+#home a:link,
+#home a:visited {
+  color: #666666;
+}
+
+#home a:hover {
+  color: #aaaaaa;
+}
+
+#home a:active {
+  color: #dddddd;
 }
 
 /* #home h2,
@@ -106,6 +175,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  margin-top: auto;
 }
 
 .contact li {
@@ -120,4 +190,30 @@ footer {
 .copyright {
   text-align: right;
   align-self: flex-end;
+}
+
+footer a:visited {
+  color: #666666;
+}
+
+footer a:hover {
+  color: #aaaaaa;
+}
+
+footer a:active {
+  color: #dddddd;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-top: 20px;
+    text-align: left;
+    align-self: flex-start;
+  }
+  .copyright p {
+    margin-top: 20px;
+  }
 }
