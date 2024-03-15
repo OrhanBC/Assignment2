@@ -52,19 +52,15 @@ body {
   padding-right: 30px;
 }
 
+
 .checkbtn {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 50px;
+  line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
-}
-
-.checkbtn img {
-  width: 34px;
-  height: 34px;
 }
 
 #check {
@@ -103,6 +99,24 @@ body {
 #content th {
   border-bottom: 2px solid;
   width: 10%;
+}
+
+#content h6 {
+  margin-left: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p.Info {
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+td {
+  border-color: blue;
+  text-align: center;
+  box-sizing: content-box;
+
 }
 
 #content a:link,
@@ -192,6 +206,7 @@ footer a:active {
   #content {
     padding: 20px 20px 100px;
   }
+
   td {
     text-align: center;
     box-sizing: content-box;
