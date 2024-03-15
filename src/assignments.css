@@ -8,6 +8,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #2f2e2e;
 }
 
 #navbar {
@@ -81,6 +82,7 @@ body {
     top: 20px;
     align-self: flex-start;
     z-index: 5;
+    margin-left: 30px;
   }
 
   #navbar {
@@ -106,7 +108,8 @@ body {
 }
 
 #assignments {
-  padding: 50px;
+  padding: 50px 50px 100px;
+  background-color: white;
 }
 
 #assignments h1 {
@@ -199,6 +202,10 @@ footer a:active {
 }
 
 @media screen and (max-width: 900px) {
+  #assignments {
+    padding: 20px 20px 100px;
+  }
+  
   footer {
     flex-direction: column;
   }
