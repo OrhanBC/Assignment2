@@ -139,9 +139,41 @@ th {
     z-index: 5;
   }
 
+
   #navbar {
     /* flex-direction: column; */
     justify-content: space-between;
+  }
+    #content h6{
+        padding: 20px;
+        padding-bottom: 20px;
+        font-size: 3em;
+        font-style: bold;
+      }
+   div.image{
+    overflow-x: auto;
+    white-space: nowrap;
+
+   }
+   #content img{
+    overflow-x: auto;
+    overflow: hidden;
+   }
+@media screen and (max-width: 600px){
+    #content h6{
+        padding: 10px;
+        padding-bottom: 5px;
+        font-size: 1.5em;
+        font-style: bold;
+      }
+      #content img{
+        width: 130%;
+        min-height: 90%;
+      }
+}
+  p.info{
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
 
   .navbar-links {
