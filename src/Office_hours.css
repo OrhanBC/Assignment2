@@ -86,12 +86,15 @@
         font-size: 3em;
         font-style: bold;
       }
-    #content img{
-      overflow-x: auto;
-      overflow: hidden;
-      width: 100%;
-      height: auto;
-    }
+   div.image{
+    overflow-x: auto;
+    white-space: nowrap;
+
+   }
+   #content img{
+    overflow-x: auto;
+    overflow: hidden;
+   }
 @media screen and (max-width: 600px){
     #content h6{
         padding: 10px;
@@ -99,9 +102,6 @@
         font-size: 1.5em;
         font-style: bold;
       }
-    p.info{
-        font-size: 0.8em;
-    }
 }
   p.info{
     padding-left: 10px;
