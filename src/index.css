@@ -5,6 +5,7 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background-color: #2f2e2e;
 }
 
 #navbar {
@@ -14,7 +15,8 @@ body {
   padding: auto;
   padding-top: 20px;
   z-index: 3;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0;
   display: flex;
@@ -66,9 +68,6 @@ body {
   display: none;
 }
 
-@media (max-width: 952px) {
-}
-
 @media (max-width: 1250px) {
   .checkbtn {
     display: block;
@@ -99,13 +98,14 @@ body {
     align-items: center;
   }
 
-  #check:checked ~ .navbar-links {
+  #check:checked~.navbar-links {
     top: 60px;
   }
 }
 
 #home {
-  padding: 50px;
+  padding: 50px 50px 100px;
+  background-color: white;
 }
 
 #home h1 {
@@ -124,14 +124,6 @@ body {
 #home a:active {
   color: #dddddd;
 }
-
-/* #home h2,
-.lecture-information h3,
-.news h3 {
-  margin-top: 10px;
-  font-weight: 100;
-  color: #666666;
-} */
 
 .course-description,
 .lecture-information,
@@ -170,7 +162,7 @@ body {
 
 footer {
   height: auto;
-  background-color: #333333;
+  background-color: #2f2e2e;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -205,14 +197,20 @@ footer a:active {
 }
 
 @media screen and (max-width: 900px) {
+  #home {
+    padding: 20px 20px 100px;
+  }
+
   footer {
     flex-direction: column;
   }
+
   .copyright {
     margin-top: 20px;
     text-align: left;
     align-self: flex-start;
   }
+
   .copyright p {
     margin-top: 20px;
   }

@@ -249,7 +249,7 @@ footer a:active {
 
 @media screen and (max-width: 900px) {
   #content {
-    padding: 10px;
+    padding: 20px 20px 100px;
   }
 
   #content h1 {

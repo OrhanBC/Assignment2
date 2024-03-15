@@ -8,6 +8,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #2f2e2e;
 }
 
 #navbar {
@@ -106,7 +107,8 @@ body {
 }
 
 #feedback {
-  padding: 50px;
+  padding: 50px 50px 100px;
+  background-color: white;
 }
 
 #feedback h1 {
@@ -169,7 +171,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   padding: 30px;
-  margin-top: 50px;
   margin-top: auto;
 }
 
@@ -205,6 +206,10 @@ footer a:active {
 }
 
 @media screen and (max-width: 900px) {
+  #feedback {
+    padding: 20px 20px 100px;
+  }
+  
   footer {
     flex-direction: column;
   }
