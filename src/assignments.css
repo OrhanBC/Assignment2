@@ -55,10 +55,15 @@ body {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 80px;
+  line-height: 50px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
+}
+
+.checkbtn img {
+  width: 34px;
+  height: 34px;
 }
 
 #check {

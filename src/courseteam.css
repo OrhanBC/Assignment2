@@ -51,15 +51,19 @@ body {
   padding-right: 30px;
 }
 
-
 .checkbtn {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 80px;
+  line-height: 50px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
+}
+
+.checkbtn img {
+  width: 34px;
+  height: 34px;
 }
 
 #check {
@@ -67,7 +71,7 @@ body {
 }
 
 #content {
-  padding: 50px
+  padding: 50px;
 }
 
 #content h1 {
@@ -80,11 +84,11 @@ body {
 }
 
 #content a:hover {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 #content a:active {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .flex-container {
@@ -117,7 +121,7 @@ body {
 }
 
 #content .ta h2 {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 #content .tbody {
@@ -161,11 +165,11 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 footer a:active {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .contact li {
@@ -216,7 +220,7 @@ footer a:active {
     align-items: center;
   }
 
-  #check:checked~.navbar-links {
+  #check:checked ~ .navbar-links {
     top: 60px;
   }
 
@@ -241,27 +245,25 @@ footer a:active {
 
 @media screen and (max-width: 900px) {
   #content {
-      padding: 10px;
+    padding: 10px;
   }
 
   #content h1 {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 
   #content th,
   #content td {
-      padding: 20px 7px;
+    padding: 20px 7px;
   }
 
   footer {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .copyright {
-      margin-top: 20px;
-      text-align: left;
-      align-self: flex-start;
+    margin-top: 20px;
+    text-align: left;
+    align-self: flex-start;
   }
-
-
 }

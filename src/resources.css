@@ -48,21 +48,23 @@ body {
   padding-right: 30px;
 }
 
-
 .checkbtn {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 80px;
+  line-height: 50px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
 }
 
+.checkbtn img {
+  width: 34px;
+  height: 34px;
+}
 #check {
   display: none;
 }
-
 
 #content {
   padding: 50px;
@@ -94,11 +96,11 @@ body {
 }
 
 #content a:hover {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 #content a:active {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .mathlab {
@@ -115,7 +117,7 @@ body {
 }
 
 .mathlab .windows {
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .mathlab span {
@@ -139,11 +141,11 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 footer a:active {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .contact li {
@@ -194,7 +196,7 @@ footer a:active {
     align-items: center;
   }
 
-  #check:checked~.navbar-links {
+  #check:checked ~ .navbar-links {
     top: 60px;
   }
 }
@@ -215,14 +217,12 @@ footer a:active {
   }
 
   footer {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .copyright {
-      margin-top: 20px;
-      text-align: left;
-      align-self: flex-start;
+    margin-top: 20px;
+    text-align: left;
+    align-self: flex-start;
   }
-
-
 }
