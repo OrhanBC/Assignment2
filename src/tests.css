@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color:#2f2e2e;
 }
 
 #navbar {
@@ -69,7 +70,8 @@ body {
 #content a:link,
 
 #content {
-    padding: 50px;
+    padding: 50px 50px 100px;
+    background-color: white;
 }
 
 #content h1 {
@@ -122,15 +124,16 @@ body {
 
 footer {
     height: auto;
-    background-color: #333333;
+    background-color: #2f2e2e;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: auto;
 }
 
+footer a:link,
 footer a:visited {
     color: #666666;
 }
