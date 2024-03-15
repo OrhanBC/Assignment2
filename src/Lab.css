@@ -112,6 +112,18 @@ body {
     box-sizing: content-box;
 
   }
+  #content a:link,
+#content a:visited {
+  color: #666666;
+}
+
+#content a:hover {
+  color: #AAAAAA;
+}
+
+#content a:active {
+  color: #DDDDDD;
+}
   @media screen and (max-width: 900px) {
 
     footer {
