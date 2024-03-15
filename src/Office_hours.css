@@ -97,7 +97,6 @@ div.image {
 #content img {
   overflow-x: auto;
   overflow: hidden;
-  width: 150%;
 }
 @media screen and (max-width: 600px) {
   #content h6 {
@@ -105,6 +104,10 @@ div.image {
     padding-bottom: 5px;
     font-size: 1.5em;
     font-style: bold;
+  }
+  #content img{
+    width: 130%;
+    min-height: 90%;
   }
 }
 p.info {
@@ -159,18 +162,6 @@ th {
     overflow-x: auto;
     overflow: hidden;
    }
-@media screen and (max-width: 600px){
-    #content h6{
-        padding: 10px;
-        padding-bottom: 5px;
-        font-size: 1.5em;
-        font-style: bold;
-      }
-      #content img{
-        width: 130%;
-        min-height: 90%;
-      }
-}
   p.info{
     padding-left: 10px;
     padding-bottom: 10px;
