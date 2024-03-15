@@ -94,6 +94,7 @@
    #content img{
     overflow-x: auto;
     overflow: hidden;
+    width: 180%;
    }
 @media screen and (max-width: 600px){
     #content h6{
