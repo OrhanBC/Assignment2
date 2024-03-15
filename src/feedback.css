@@ -165,6 +165,7 @@ footer {
   justify-content: space-between;
   padding: 30px;
   margin-top: 50px;
+  margin-top: auto;
 }
 
 footer a:link,
