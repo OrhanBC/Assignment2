@@ -76,13 +76,14 @@ body {
   background-color: white;
 }
 
-#content h3 {
-  padding: 30px;
-  font-size: 2em;
+#content h1 {
+  font-size: 2.5em;
 }
 
 p.info {
-  padding: 20px;
+  font-size: 1.3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #content .tbody {
@@ -130,7 +131,6 @@ td {
   color: #dddddd;
 }
 
-
 footer {
   height: auto;
   background-color: #2f2e2e;
@@ -177,7 +177,7 @@ footer a:active {
   #content {
     padding: 20px 20px 100px;
   }
-  
+
   footer {
     flex-direction: column;
   }
@@ -220,7 +220,7 @@ footer a:active {
     align-items: center;
   }
 
-  #check:checked~.navbar-links {
+  #check:checked ~ .navbar-links {
     top: 60px;
   }
 }

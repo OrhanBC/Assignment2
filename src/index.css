@@ -185,6 +185,7 @@ footer {
   align-self: flex-end;
 }
 
+footer a:link,
 footer a:visited {
   color: #666666;
 }
